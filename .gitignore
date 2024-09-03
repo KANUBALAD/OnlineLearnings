@@ -1,0 +1,9 @@
+# macOS system files that might clutter your repository
+.DS_Store
+
+# Ignore directory used by macOS to remember the view options of a folder
+*.DS_Store
+
+# Ignore .AppleDouble files created by Apple Finder
+.AppleDouble
+
