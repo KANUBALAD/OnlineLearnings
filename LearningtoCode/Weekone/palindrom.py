@@ -26,12 +26,15 @@ def is_palindrome(s):
     i = 0 # first item
     j = len(s) - 1 # last item
     # print(f'i is {i} and j is {j}')
+
+    #NOTES: When middle of the string is reached then it is a palindrom,
+    # for even lenght then j < i and odd i+j 
     while i < j and s[i] == s[j]: 
         i = i+1
         j = j-1
-        print(f'i is {i} and j is {j}')
+        # print(f'i is {i} and j is {j}')
 
-    return j <= i
+    return j <= i # this is added such that it works for odd and even
 
 print(is_palindrome('racecar'))
 print(is_palindrome('dented'))
