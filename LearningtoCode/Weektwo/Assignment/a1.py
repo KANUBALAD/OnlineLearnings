@@ -26,6 +26,14 @@ def stock_price_summary(price_changes):
     >>> stock_price_summary([0.01, 0.03, -0.02, -0.14, 0, 0, 0.10, -0.01])
     (0.14, -0.17)
     """
+    gain_price = 0
+    loss_price = 0
+    for price in price_changes:
+        if price > 0:
+            gain_price+= price
+        else:
+            loss_price+= price
+    return gain_price, loss_price
 
 
 def swap_k(L, k):
@@ -40,6 +48,12 @@ def swap_k(L, k):
     >>> nums
     [5, 6, 3, 4, 1, 2]
     """
+    if k == 0:
+        return
+    L[:k], L[-k:] = L[-k:], L[:k]
+    
+
+
 
 
 if __name__ == '__main__':
