@@ -1,6 +1,9 @@
 ## Blog Entries
 
-Jay Alammar notebook on githubs can be accessed [here](https://github.com/jalammar/jalammar.github.io/tree/master/notebooks)
+Jay Alammar notebook on github can be accessed [here](https://github.com/jalammar/jalammar.github.io/tree/master/notebooks)
+
+Also, we will be using the book of the NLP book by Jay which can be accessed [here](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models/tree/main ). 
+
 
 
 | Name of the Blog                                                                 | Author          | Date         | Comments           |
